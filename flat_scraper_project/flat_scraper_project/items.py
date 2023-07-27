@@ -6,7 +6,7 @@
 import scrapy
 
 
-class FlatScrapperItem(scrapy.Item):
+class FlatScraperProjectItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass

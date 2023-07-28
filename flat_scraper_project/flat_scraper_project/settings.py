@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = "flat_scraper_project.spiders"
 #USER_AGENT = "flat_scraper_project (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

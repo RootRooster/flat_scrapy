@@ -1,5 +1,7 @@
 import scrapy
 from pathlib import Path
+
+
 class ApartmentScraper(scrapy.Spider):
     name = 'apartments'
 

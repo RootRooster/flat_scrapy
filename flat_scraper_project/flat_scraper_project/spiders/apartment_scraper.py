@@ -1,14 +1,17 @@
 import scrapy
 from pathlib import Path
+from selenium import webdriver
 
 
 class ApartmentScraper(scrapy.Spider):
     name = 'apartments'
 
+    def __init__(self):
+            self.driver = webdriver.Firefox()
+
     def start_requests(self):
         urls = [
-            'https://www.sreality.cz/en/search/for-sale/apartments',
-            "https://www.sreality.cz/en/search/for-sale/apartments?page=2",
+            'https://www.sreality.cz/en/search/for-sale/apartments'
         ]
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse)

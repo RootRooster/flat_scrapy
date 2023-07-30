@@ -25,7 +25,6 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
     "headless": True,
     "timeout": 20 * 1000,  # 20 seconds
 }
-PLAYWRIGHT_VERBOSE_LOGGING = False
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "flat_scraper_project (+http://www.yourdomain.com)"

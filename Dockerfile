@@ -13,4 +13,4 @@ COPY . /app
 
 WORKDIR /app/flat_scraper_project/
 
-# CMD ["scrapy", "crawl", "apartments"]
+CMD ["scrapy", "crawl", "apartments"]
